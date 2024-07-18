@@ -6,14 +6,17 @@ st.set_page_config(layout="wide")
 empty_col, col1, col2 = st.columns([0.5, 1.5, 1.9])
 
 with col1:
-    st.image("images/profile.png")
+    st.image("images/profile.png",width=450)
 
 with col2:
     st.title("Vignesh Baskar")
-    content = """Motivated and detail-oriented professional with a strong interest in programming and proficiency in Python. 
-                 Excellent problem-solving abilities, effective communication skills, and strong time management. 
-                 Demonstrated ability to learn quickly and adapt to new technologies. 
-                 Passionate about developing efficient solutions and pursuing a career in full-stack development.
+    content = """Motivated and detail-oriented professional with a background in relationship management
+                at Integrated Enterprises Ltd., who is now pursuing higher studies to become a full-stack developer, 
+                leveraging his proficiency in Python and a Diploma in Computer Applications to transition into the IT field, 
+                while also managing a freelancing business named (Evedoc) that provides event services;
+                an alumnus of Ramakrishna Mission Vivekananda College with valuable internship experience at Take Solutions Ltd.
+                , he possesses excellent problem-solving abilities, effective communication skills, 
+                and a strong commitment to learning new technologies and developing efficient solutions.
                """
 
     st.info(content)
